@@ -1,13 +1,16 @@
 import sys
-if len(sys.argy)== 3:
-  script_name=sys.argv[0]
-  name=sys.argv[1]
-  print("User provided input values:")
+#checks if coreect number of argument a
+
+if len(sys.argv) ==3;
+    script_name=sys.argv[0]
+    name= sys.argy[1]
+    rollno=sys.argv[2]
+    print("User provide input values:")
 else:
-  script_name=sys.argv[0]
-  name="shreyas"
-  rollno="101"
-  print("No input given - using default values:")
-print("Script Name:", script_name)
-print("Student Name:", name)
-print("Roll Nuumber:",rollno)
+    script_name=sys.argv[0]
+    name= "Sayed"
+    rollno="067"
+    print("No Input given -using default values:")
+print("Script Name:",script_name)
+print("Student Name:",name)
+print("Student Rollno:",rollno)
